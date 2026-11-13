@@ -1,0 +1,38 @@
+# Arduino / compilation
+build/
+*.elf
+*.hex
+*.bin
+*.out
+*.map
+*.o
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# STM32 / Keil
+*.uvguix.*
+*.uvoptx
+Objects/
+Listings/
+Debug/
+Release/
+
+# Python (optional tools)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude Code local files
+.claude/
+CLAUDE.md
